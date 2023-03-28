@@ -1,0 +1,118 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+새로운 기능 및 개선 사항에 대 한 최신 PowerShell을 설치 하세요! https://aka.ms/PSWindows
+
+PS C:\Users\서모정> git --version
+git version 2.40.0.windows.1
+PS C:\Users\서모정> git config —global user.name "name" (아무 이름을 적어도 상관없지만 깃허브 이름과 통일을 추천!)
+아무 : '아무' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한
+지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:38
++ git config —global user.name "name" (아무 이름을 적어도 상관없지만 깃허브 이름과 통일을 추천! ...
++                                      ~~
+    + CategoryInfo          : ObjectNotFound: (아무:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\서모정> git config —global user.name "name" (아무 이름을 적어도 상관없지만 깃허브 이름과 통일을 추천!)
+아무 : '아무' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한
+지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:38
++ git config —global user.name "name" (아무 이름을 적어도 상관없지만 깃허브 이름과 통일을 추천! ...
++                                      ~~
+    + CategoryInfo          : ObjectNotFound: (아무:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\서모정> git config —global user.email "깃허브 이메일"
+fatal: not in a git directory
+PS C:\Users\서모정> git config —global user.name "mororoo"
+fatal: not in a git directory
+PS C:\Users\서모정> git config —global user.email "ahwld7979@naver.com"
+fatal: not in a git directory
+PS C:\Users\서모정> git config —global user.name "MOROROO"
+fatal: not in a git directory
+PS C:\Users\서모정> git config —global user.email "ahwld7979@naver.com"
+fatal: not in a git directory
+PS C:\Users\서모정> git config --global user.name "MOROROO"
+PS C:\Users\서모정> git config --global user.email "ahwld7979@naver.com"
+PS C:\Users\서모정> cd GIT/
+cd : 'C:\Users\서모정\GIT\' 경로는 존재하지 않으므로 찾을 수 없습니다.
+위치 줄:1 문자:1
++ cd GIT/
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\서모정\GIT\:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\서모정> cd GIT/
+PS C:\Users\서모정\GIT> git init
+PS C:\Users\서모정\GIT> cd GITHUB
+cd : 'C:\Users\서모정\GIT\GITHUB' 경로는 존재하지 않으므로 찾을 수 없습니다.
+위치 줄:1 문자:1
++ cd GITHUB
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\서모정\GIT\GITHUB:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\서모정\GIT> cd GIT
+cd : 'C:\Users\서모정\GIT\GIT' 경로는 존재하지 않으므로 찾을 수 없습니다.
+위치 줄:1 문자:1
++ cd GIT
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\서모정\GIT\GIT:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\서모정\GIT> git init
+Initialized empty Git repository in C:/Users/서모정/GIT/.git/
+PS C:\Users\서모정\GIT> ls
+PS C:\Users\서모정\GIT> git ass
+git: 'ass' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        askpass
+        lfs
+        stash
+PS C:\Users\서모정\GIT> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\서모정\GIT> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS C:\Users\서모정\GIT> git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\서모정\GIT> git remote -v
+PS C:\Users\서모정\GIT> git remote add origin https://github.com/mororoo/MORORO.git
+PS C:\Users\서모정\GIT> git remote -v
+origin  https://github.com/mororoo/MORORO.git (fetch)
+origin  https://github.com/mororoo/MORORO.git (push)
+PS C:\Users\서모정\GIT> git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mororoo/MORORO.git'
+PS C:\Users\서모정\GIT> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS C:\Users\서모정\GIT> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\서모정\GIT> git commit-m"젭알"
+git: 'commit-m젭알' is not a git command. See 'git --help'.
+PS C:\Users\서모정\GIT> git add .
+PS C:\Users\서모정\GIT> git commit -m "진짜 제발"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\서모정\GIT> git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mororoo/MORORO.git'
+PS C:\Users\서모정\GIT>
