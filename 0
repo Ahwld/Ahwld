@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas</title>
+</head>
+<body>
+    <table>
+    <tr>
+    <td><h5><b>Description</b></h5>
+    <h2>SIGNATURE SHOSE FROM<br>
+        ADIDAS BASKETBALL AND<br>
+        TRAE YOUNG.
+    </h2>
+    <h5>of the coldest on the hardwood, Trae Young is<br>
+        fearless. He'll take any shot at any time, and<br>
+        when it's all on the line, look out, because Trae is about to</br>
+        steal the show. The newest signature shoes from adidas</br>  
+        Basketball and Trae Young are all about agility and speed,</br> 
+        the two elements that make Trae so dynamic. BOOST and</br>
+        Lightstrike work in tandem with an adaptive SCK360,</br>  
+        semi-laceless upper to deliver enhanced comfort and</br>
+        game-cahnging support. 
+    </h5><br></td>
+    <td><img src="./imgaes/adidas sky.jpg"/ alt="Adidas" height="400" width="400"></td>
+    </tr>
+    </table>
+   
+    <h5>Details</h5>
+    <table>
+        <ul>
+            <tr>
+                <td><li>Regular fit</li></td>
+                <td><li>BOOST cushioning in the heel</li></td>              
+            </tr>
+            <tr>
+                <td><li>Semi-laceless closure</li></td>    
+                <td><li>Rubber outsole</li></td>
+            </tr>
+            <tr>
+                <td><li>Adaptive fit SCK360 knit upper</li></td>
+                <td><li>Imported</li></td>
+            </tr>    
+            <tr>
+                <td><li>Textile lining</li></td>
+                <td><li>Product color: Bliss Pink / Core Black / Pulse Magenta</li></td>
+            </tr>
+            <tr>
+                <td><li>Lightstrike midsole</li></td>
+                <td><li>Product code: IE1667</li></td>
+            </tr>                                                                              
+        </ul>
+    </table>
+</body>
+</html>
