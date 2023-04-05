@@ -1,0 +1,29 @@
+# MORORO
+Config files for my GitHub profile.
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+*{
+    font-family: 'Hi Melody', cursive;
+}
+body{
+    background-image: url('background.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color:rgb(102, 100, 106);
+    text-align: center;
+    background-color: white;
+    font-size: 40px;    
+}
+div {
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0.8);
+    letter-spacing: -10;
+    color: rgb(102, 100, 106);
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+div ul li span {
+    color: rgb(202, 110, 248);
+}
