@@ -1,0 +1,52 @@
+# MORORO
+Config files for my GitHub profile.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+    <link rel="stylesheet" href="./introduction.css">
+</head>
+<body></body>
+<table>    
+<div id="introduce">
+        안녕하세요:)<br>
+        20학번 서모정 입니다~!~!!
+        <ul>
+            <li>전공 : 일본IT학과</li>
+            <li>복전 : 컴퓨터공학과</li>
+            
+            <li>프론트 엔드</li>
+        </ul>
+</div>
+<div id="introduce2">
+    <ul>
+        <li>세자매 중 둘 째</li>
+        <li>극단적인 호불호</li>
+        <li>호기심 망땅</li>
+        <li>즉흥적</li>
+        <li>ENFP</li>
+        <li>Like</li>
+                <ul>
+                    <li>디저트 / 단건 다~~~ 좋아욧</li>
+                    <li>새로운 것 / 안해본 것</li>
+                    <li>귀엽고 깜찍한 것</li>
+                    <li>Activity!!!</li>
+                    <li>스릴</li>               
+                </ul>
+        <li>Hate</li>
+                <ul>
+                    <li>지루한 것</li>
+                    <li>해물, 당근, 버섯 </li>
+                    <li>거미 (> 바퀴)</li>
+                    <li>무서운 영화</li>
+                </ul>                  
+    </ul> 
+</div>
+<div id="picture2">
+    <img src="./KakaoTalk_20230410_152728480.gif" alt="star">
+</div>
+</body>
+</html>
