@@ -1,0 +1,45 @@
+# MORORO
+Config files for my GitHub profile.
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+    font-family: 'Dongle', sans-serif;   
+}
+body{
+    background-color: #fff2f9;
+}
+div{
+    display: inline-block;
+}
+ul ul {
+    list-style-type: square;
+}
+#introduce {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    margin: 50px 50px;
+    border: 4px dotted #e53a95;
+    border-radius: 50px;
+}
+
+#introduce2{
+    background-color: #f745a4;
+    color: white;
+    font-size: 30px;
+    line-height: 1.3;
+    width: 400px;
+    height: 670px;
+    padding: 10px;
+    margin: 50px 100px;
+    border: 4px dotted black;
+    border-radius: 50px;
+}
+#picture2{
+    position: absolute;
+    left: 100px;
+    bottom: 400px;
+}
